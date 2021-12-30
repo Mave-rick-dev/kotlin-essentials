@@ -1,3 +1,4 @@
+/*
 package com.maverick.kotlinessentials.unitTest
 
 import kotlinx.coroutines.Dispatchers
@@ -5,10 +6,12 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
+*/
 /**
  * @Project kotlin-essentials
  * @Author mave on 12/28/21
- */
+ *//*
+
 class CoroutineContextDemo {
 }
 
@@ -52,4 +55,4 @@ fun main(): Unit = runBlocking {
         println("C5 after delay on thread ${Thread.currentThread().name}")
     }
     println("C1 on thread ${Thread.currentThread().name}")
-}
+}*/

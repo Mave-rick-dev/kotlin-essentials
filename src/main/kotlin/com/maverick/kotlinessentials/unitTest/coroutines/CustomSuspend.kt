@@ -1,3 +1,4 @@
+/*
 package com.maverick.kotlinessentials.unitTest
 
 import kotlinx.coroutines.GlobalScope
@@ -5,10 +6,12 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
+*/
 /**
  * @Project kotlin-essentials
  * @Author mave on 12/20/21
- */
+ *//*
+
 class CustomSuspend {
 }
 
@@ -28,4 +31,4 @@ fun main() = runBlocking{
 suspend fun calcWhileWait(millis: Long){
     //some calculation
     delay(millis)
-}
+}*/

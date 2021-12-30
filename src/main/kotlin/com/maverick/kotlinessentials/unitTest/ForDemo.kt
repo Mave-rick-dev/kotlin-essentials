@@ -1,3 +1,4 @@
+/*
 package com.maverick.kotlinessentials.unitTest
 
 import kotlinx.coroutines.GlobalScope
@@ -6,18 +7,23 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlin.concurrent.thread
 
+*/
 /**
  * @Project kotlin-essentials
  * @Author mave on 12/20/21
- */
+ *//*
+
 class ForDemo {
 }
 
+*/
 /**
  * Goal:
  *  - Formulate a proper way to wait/suspend the running thread for coroutines
  *      completion or vice-versa
- */
+ *//*
+
+*/
 /*
 fun main() {
 
@@ -38,7 +44,8 @@ fun main() {
     //  for the during of coroutines completion
     //Thread.sleep(2000)
     println("main program starts at ${Thread.currentThread().name}")
-}*/
+}*//*
+
 
 //fourth solution: To initiate runBlocking() on main thread; or beginning of the
 //current thread
@@ -55,3 +62,4 @@ fun main() = runBlocking {
         println("Main program running on ${Thread.currentThread().name}")
 
     }
+*/

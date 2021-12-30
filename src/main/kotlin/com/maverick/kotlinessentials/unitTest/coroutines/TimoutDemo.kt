@@ -1,11 +1,14 @@
+/*
 package com.maverick.kotlinessentials.unitTest
 
 import kotlinx.coroutines.*
 
+*/
 /**
  * @Project kotlin-essentials
  * @Author mave on 12/27/21
- */
+ *//*
+
 class TimoutDemo {
 }
 
@@ -14,7 +17,8 @@ fun main() = runBlocking {
     println("main task starts on ${Thread.currentThread().name}")
 
     //withTimeout(millis: Long)
-   /* try {
+   */
+/* try {
         withTimeout(2000) {
             for (i in 0..500) {
                 print("$i.")
@@ -25,7 +29,8 @@ fun main() = runBlocking {
         println("\n${ex.message}")
     }finally {
         println("finally block executed....")
-    }*/
+    }*//*
+
 
     //withTimeoutOrNull(millis: Long)
     val result: String? = withTimeoutOrNull(2000){
@@ -38,4 +43,4 @@ fun main() = runBlocking {
     println("\nReturned value: $result")
     println("main task starts on ${Thread.currentThread().name}")
 
-}
+}*/

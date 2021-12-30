@@ -1,11 +1,14 @@
-package com.maverick.kotlinessentials.unitTest
+/*
+package com.maverick.kotlinessentials.unitTest.coroutines
 
 import kotlinx.coroutines.*
 
+*/
 /**
  * @Project kotlin-essentials
  * @Author mave on 12/27/21
- */
+ *//*
+
 class AsyncDemo {
 }
 
@@ -22,4 +25,4 @@ fun main()= runBlocking {
     println(result)
     deferredJob.join()
     println("main task running on thread: ${Thread.currentThread().name}")
-}
+}*/

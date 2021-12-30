@@ -1,4 +1,4 @@
-package com.maverick.kotlinessentials.unitTest
+package com.maverick.kotlinessentials.unitTest.coroutines
 
 import kotlinx.coroutines.delay
 
