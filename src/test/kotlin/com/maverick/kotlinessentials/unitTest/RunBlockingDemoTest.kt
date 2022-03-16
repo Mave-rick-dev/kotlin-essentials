@@ -15,7 +15,7 @@ internal class RunBlockingDemoTest{
         //waitAndCalc is a suspend function which makes runBlocking
         //a better choice as it is compatible for enveloping the function
         //we want to test
-        waitAndCalc(3000, 15 ,  15)
+        /*waitAndCalc(3000, 15 ,  15)*/
         Assert.assertEquals(30, 15 + 15)
         //arrange; given            
         
