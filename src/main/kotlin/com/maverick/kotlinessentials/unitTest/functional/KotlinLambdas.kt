@@ -1,10 +1,13 @@
+/*
 package com.maverick.kotlinessentials.unitTest.functional
 
 class KotlinLambdas
 
+*/
 /**
  * In absence of lambdas, we need to pass the function name as the parmeter
- */
+ *//*
+
 
 fun b(): String {
     return "hello from b"
@@ -38,3 +41,4 @@ fun main() {
 
     println(lambdaWithTwoParam("Kunal", "Shrestha"))
 }
+*/
